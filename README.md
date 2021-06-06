@@ -170,7 +170,7 @@ File: xml/selecttypes.xml for action: GetAllSelectTypes
 
 ![Example](./media/edit_enabled.jpg)
 
-The xml files in the xml folder already has the modification to enable artist toneprint edit
+The xml files in the xml folder already have the modification to enable artists toneprint edit
 
 ***In the original_xml folder you will have the unmodified xml files in case you brake something***
 
