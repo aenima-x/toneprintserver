@@ -1,0 +1,20 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body>
+    <GetVersionsAndInfoResponse xmlns="http://tempuri.org/">
+        <GetVersionsAndInfoResult xmlns:a="http://schemas.datacontract.org/2004/07/TonePrint" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:EarliestCompatibleVersion>600</a:EarliestCompatibleVersion>
+            <a:LatestVersion>1063</a:LatestVersion>
+            <a:LatestVersionString>4.0.05</a:LatestVersionString>
+            <a:Messages1 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <b:string>2021-05-18T09:35:10</b:string>
+            </a:Messages1>
+            <a:Messages2 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            <a:Messages3 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            <a:Values1 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <b:int>4512</b:int>
+                <b:int>8594</b:int>
+            </a:Values1>
+            <a:Values2 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            <a:Values3 xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+</GetVersionsAndInfoResult></GetVersionsAndInfoResponse>
+</s:Body>
+</s:Envelope>
