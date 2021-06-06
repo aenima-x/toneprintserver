@@ -71,6 +71,7 @@ def get_response(action):
 
 @app.route("/TonePrintService.svc",  methods=['POST'])
 def fake_service():
+    logger.info("--------------------------------------")
     response = Response()
     action = request.headers.get('Soapaction', '').split('/')[-1].replace('"', '')
     if action:
@@ -93,7 +94,7 @@ def fake_service():
 @click.option('-p', '--port', default=443, type=int, help='Listen port', show_default=True)
 @click.option('--cert', default='ssl/cert.pem', type=click.Path(exists=True), help='Certificate File', show_default=True)
 @click.option('--key', default='ssl/key.pem', type=click.Path(exists=True), help='Key File', show_default=True)
-@click.option('--static-xml',is_flag=True, help="Update XML")
+@click.option('--static-xml',is_flag=True, help="Serve static XML")
 @click.option('--debug',is_flag=True, help="Debug mode")
 def main(host, port, cert, key, static_xml, debug):
     logger.info("Toneprint Fake Server [starting...]")
